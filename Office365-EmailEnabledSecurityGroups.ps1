@@ -2,7 +2,7 @@
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
 # Install the Exchange Online Management module if not already installed
-#Install-Module -Name ExchangeOnlineManagement -Force -AllowClobber
+Install-Module -Name ExchangeOnlineManagement -Force -AllowClobber
 
 # Enable TLS 1.2 for secure communication
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
